@@ -34,6 +34,7 @@
 	<target name="junit" depends="compile">
 	   <junit printsummary="yes" haltonfailure="yes" showoutput="yes">
 	  		<classpath location="lib/junit-4.11.jar" />
+	   	    <classpath location="${build}" />
 	  		<formatter type="brief" usefile="false"/>
 	  		<formatter type="xml"/>
 	  		<test name="com.billcloud.web.hodor.MyHodorTest"/>
