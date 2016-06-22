@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="bill-laptop" name="com.billcloud.web.hodor.MyHodorTest" skipped="0" tests="1" time="0.024" timestamp="2016-06-22T23:55:52">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/home/stackadmin/eclipse/mars/eclipse/../../../.p2/pool/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="dist" value="/home/stackadmin/workspace/com.billcloud.web.hodor/dist" />
+    <property name="lib" value="/home/stackadmin/workspace/com.billcloud.web.hodor/lib" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes" />
+    <property name="TODAY" value="June 22 2016" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.runtime.version" value="1.8.0_91-8u91-b14-0ubuntu4~16.04.1-b14" />
+    <property name="user.name" value="stackadmin" />
+    <property name="user.language" value="en" />
+    <property name="build" value="/home/stackadmin/workspace/com.billcloud.web.hodor/build" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64" />
+    <property name="ant.project.default-target" value="dist" />
+    <property name="ant.project.name" value="hodor" />
+    <property name="DSTAMP" value="20160622" />
+    <property name="java.version" value="1.8.0_91" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="src" value="/home/stackadmin/workspace/com.billcloud.web.hodor/src" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/home/stackadmin/workspace/com.billcloud.web.hodor/build.xml" />
+    <property name="os.version" value="4.4.0-24-generic" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.91-b14" />
+    <property name="web.dir" value="/home/stackadmin/workspace/com.billcloud.web.hodor/WebContent/WEB-INF" />
+    <property name="ant.library.dir" value="/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="ant.file.type.hodor" value="file" />
+    <property name="eclipse.pdebuild.scripts" value="/home/stackadmin/eclipse/mars/eclipse/../../../.p2/pool/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/scripts//" />
+    <property name="ant.file.hodor" value="/home/stackadmin/workspace/com.billcloud.web.hodor/build.xml" />
+    <property name="user.home" value="/home/stackadmin" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib:/home/stackadmin/eclipse/mars/eclipse/configuration/org.eclipse.osgi/761/0/.cp" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1466639752275 -Declipse.connect.port=35502 -Declipse.pdebuild.home=/home/stackadmin/eclipse/mars/eclipse/../../../.p2/pool/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/.// -Declipse.pdebuild.scripts=/home/stackadmin/eclipse/mars/eclipse/../../../.p2/pool/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/scripts// -Declipse.pdebuild.templates=/home/stackadmin/eclipse/mars/eclipse/../../../.p2/pool/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/templates// -Dant.home=/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /home/stackadmin/workspace/com.billcloud.web.hodor/build.xml" />
+    <property name="java.class.path" value="/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-antlr.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-apache-bcel.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-apache-bsf.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-apache-log4j.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-apache-oro.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-apache-regexp.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-apache-resolver.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-apache-xalan2.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-commons-logging.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-commons-net.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-jai.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-javamail.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-jdepend.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-jmf.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-jsch.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit4.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-launcher.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-netrexx.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-swing.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-testutil.jar:/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar:/home/stackadmin/eclipse/mars/eclipse/configuration/org.eclipse.osgi/81/0/.cp/lib/antdebug.jar:/home/stackadmin/eclipse/mars/eclipse/configuration/org.eclipse.osgi/81/0/.cp/lib/remote.jar:/home/stackadmin/eclipse/mars/eclipse/configuration/org.eclipse.osgi/82/0/.cp/lib/remoteAnt.jar:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/home/stackadmin/.p2/pool/plugins/org.eclipse.swt.gtk.linux.x86_64_3.105.0.v20160603-0902.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="TSTAMP" value="1855" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="eclipse.pdebuild.home" value="/home/stackadmin/eclipse/mars/eclipse/../../../.p2/pool/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/.//" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="user.dir" value="/home/stackadmin/workspace/com.billcloud.web.hodor" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="basedir" value="/home/stackadmin/workspace/com.billcloud.web.hodor" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/home/stackadmin/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="dist" />
+  </properties>
+  <testcase classname="com.billcloud.web.hodor.MyHodorTest" name="testHodor" time="0.001" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
