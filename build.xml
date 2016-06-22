@@ -8,8 +8,8 @@
   <property name="dist" location="dist"/>
 
   <target name="junit">
-  	<classpath location="lib/junit-4.11.jar" />
   	<junit>
+  		<classpath location="lib/junit-4.11.jar" />
   		<test name="com.billcloud.web.hodor.MyHodorTest"/>
   	</junit>
   </target>
