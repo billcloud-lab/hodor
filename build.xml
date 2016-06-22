@@ -29,7 +29,7 @@
 
     <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file 
     <jar jarfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}"/> -->
-  	<war destfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}" webxml = "${web.dir}/web.xml"/>
+  	<war destfile="${dist}/lib/hodor-${DSTAMP}.war" basedir="${build}" webxml = "${web.dir}/web.xml"/>
   </target>
 	
 	<target name="junit" depends="compile">
