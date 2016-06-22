@@ -7,6 +7,7 @@
   <property name="build" location="build"/>
   <property name="dist" location="dist"/>
   <property name="web.dir" location="WebContent"/>
+  <property name="lib" location="lib"/>
 	
   <target name="init">
     <!-- Create the time stamp -->
@@ -33,7 +34,8 @@
 	
 	<target name="junit" depends="compile">
 	   <junit printsummary="yes" haltonfailure="yes" showoutput="yes">
-	  		<classpath location="lib/junit-4.11.jar" />
+	  		<classpath location="${lib}/junit-4.11.jar" />
+	   	    <classpath location="${lib}/hamcrest-core-1.3.jar" />
 	   	    <classpath location="${build}" />
 	  		<formatter type="brief" usefile="false"/>
 	  		<formatter type="xml"/>
