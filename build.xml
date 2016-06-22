@@ -8,8 +8,10 @@
   <property name="dist" location="dist"/>
 
   <target name="junit">
-  	<junit>
+  	<junit printsummary="yes" haltonfailure="yes" showoutput="yes">
   		<classpath location="lib/junit-4.11.jar" />
+  		  <formatter type="brief" usefile="false"/>
+  		  <formatter type="xml"/>
   		<test name="com.billcloud.web.hodor.MyHodorTest"/>
   	</junit>
   </target>
