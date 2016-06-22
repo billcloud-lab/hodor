@@ -6,17 +6,8 @@
   <property name="src" location="src"/>
   <property name="build" location="build"/>
   <property name="dist" location="dist"/>
-
-  <target name="junit">
-  	<junit printsummary="yes" haltonfailure="yes" showoutput="yes">
-  		<classpath location="lib/junit-4.11.jar" />
-  		  <formatter type="brief" usefile="false"/>
-  		  <formatter type="xml"/>
-  		<test name="com.billcloud.web.hodor.MyHodorTest"/>
-  	</junit>
-  </target>
 	
-  <target name="init" depends="junit">
+  <target name="init">
     <!-- Create the time stamp -->
     <tstamp/>
     <!-- Create the build directory structure used by compile -->
@@ -37,6 +28,15 @@
     <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
     <jar jarfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}"/>
   </target>
+	
+	<target name="junit" depends="compile">
+	   <junit printsummary="yes" haltonfailure="yes" showoutput="yes">
+	  		<classpath location="lib/junit-4.11.jar" />
+	  		<formatter type="brief" usefile="false"/>
+	  		<formatter type="xml"/>
+	  		<test name="com.billcloud.web.hodor.MyHodorTest"/>
+	  	</junit>
+	  </target>
 
   <target name="clean"
         description="clean up">
