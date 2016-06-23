@@ -22,7 +22,7 @@ hodor app
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d -m 755 $RPM_BUILD_ROOT/opt/tomcat/webapps
-cp ../SOURCES/ $RPM_BUILD_ROOT/opt/tomcat/webapps/.
+cp ../SOURCES/hodor.war $RPM_BUILD_ROOT/opt/tomcat/webapps/.
 
 # Contains a list of the files that are part of the package
 # See useful directives such as attr here: http://www.rpm.org/max-rpm-snapshot/s1-rpm-specref-files-list-directives.html
