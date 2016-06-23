@@ -32,16 +32,27 @@
   	<war destfile="${dist}/lib/hodor-${DSTAMP}.war" basedir="${build}" webxml = "${web.dir}/web.xml"/>
   </target>
 	
-	<target name="junit" depends="compile">
-	   <junit printsummary="yes" haltonfailure="yes" showoutput="yes">
-	  		<classpath location="${lib}/junit-4.11.jar" />
+  <target name="prepareRPM" depends="dist">
+  	<mkdir dir="rpm"/>
+  	<mkdir dir="rpm/BUILD"/>
+  	<mkdir dir="rpm/RPMS"/>
+  	<mkdir dir="rpm/RPMS/noarch"/>
+  	<mkdir dir="rpm/SOURCES"/>
+  	<mkdir dir="rpm/SPECS"/>
+  	<mkdir dir="rpm/SRPMS"/>
+  	<mkdir dir="rpm/tmp"/>
+  </target>
+	
+  <target name="junit" depends="compile">
+	<junit printsummary="yes" haltonfailure="yes" showoutput="yes">
+			<classpath location="${lib}/junit-4.11.jar" />
 	   	    <classpath location="${lib}/hamcrest-core-1.3.jar" />
 	   	    <classpath location="${build}" />
 	  		<formatter type="brief" usefile="false"/>
 	  		<formatter type="xml"/>
 	  		<test name="com.billcloud.web.hodor.MyHodorTest"/>
 	  	</junit>
-	  </target>
+  </target>
 
   <target name="clean"
         description="clean up">
