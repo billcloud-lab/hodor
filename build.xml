@@ -48,7 +48,7 @@
   <target name="buildRPM" depends="prepareRPM">
   	<exec dir="rpm/SPECS" executable="pwd"/>
   	<exec dir="rpm/SPECS" executable="rpmbuild">
-  	  <arg line="-v -bb --buildroot rpm/BUILDROOT hodor.spec"/>
+  	  <arg line="-v -bb hodor.spec"/>
   	</exec>
   	<move file="/opt/tomcat/rpmbuild/RPMS/noarch/hodor-0.0.1-0.1.noarch.rpm" todir="rpm"/>
   </target>
