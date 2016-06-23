@@ -41,7 +41,7 @@
   	<mkdir dir="rpm/SPECS"/>
   	<mkdir dir="rpm/SRPMS"/>
   	<mkdir dir="rpm/tmp"/>
-  	<copy file="${dist}/lib/hodor.war" todir="/opt/tomcat/rpmbuild/SOURCES/"/>
+  	<copy file="${dist}/lib/hodor.war" todir="rpm/SOURCES/"/>
   	<copy file="lib/hodor.spec" todir="rpm/SPECS/"/>
   </target>
 	
