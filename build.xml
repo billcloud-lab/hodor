@@ -1,4 +1,4 @@
-<project name="hodor" default="dist" basedir=".">
+<project name="hodor" default="buildRPM" basedir=".">
   <description>
     simple example build file for hodor
   </description>
@@ -43,6 +43,10 @@
   	<mkdir dir="rpm/tmp"/>
   	<copy file="${dist}/lib/hodor.war" todir="rpm/SOURCES/"/>
   	<copy file="lib/hodor.spec" todir="rpm/SPECS/"/>
+  </target>
+	
+  <target name="buildRPM" depends="prepareRPM">
+  	<exec dir="rpm/SPECS" executable="pwd"/>
   	<exec dir="rpm/SPECS" executable="rpmbuild">
   	  <arg line="-v -bb hodor.spec"/>
   	</exec>
