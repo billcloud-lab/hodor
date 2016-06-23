@@ -43,7 +43,7 @@
   	<mkdir dir="rpm/tmp"/>
   	<copy file="${dist}/lib/hodor.war" todir="rpm/SOURCES/"/>
   	<copy file="lib/hodor.spec" todir="rpm/SPECS/"/>
-  	<exec dir="rpm" executable="rpmbuild">
+  	<exec dir="rpm/SPECS" executable="rpmbuild">
   	  <arg line="-v -bb hodor.spec"/>
   	</exec>
   </target>
