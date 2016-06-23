@@ -7,7 +7,7 @@ Group           : Applications/File
 License         : GPL
 
 BuildArch       : noarch
-BuildRoot       : %{_tmppath}/%{name}-%{version}-root
+BuildRoot       : rpm
 
 
 # Use "Requires" for any dependencies, for example:
