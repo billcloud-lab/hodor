@@ -50,6 +50,7 @@
   	<exec dir="rpm/SPECS" executable="rpmbuild">
   	  <arg line="-v -bb --buildroot rpm/BUILDROOT hodor.spec"/>
   	</exec>
+  	<move file="/opt/tomcat/rpmbuild/RPMS/noarch/hodor-0.0.1-0.1.noarch.rpm" todir="rpm"/>
   </target>
 	
   <target name="junit" depends="compile">
