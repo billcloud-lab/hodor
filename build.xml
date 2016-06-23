@@ -48,7 +48,7 @@
   <target name="buildRPM" depends="prepareRPM">
   	<exec dir="rpm/SPECS" executable="pwd"/>
   	<exec dir="rpm/SPECS" executable="rpmbuild">
-  	  <arg line="-v -bb hodor.spec"/>
+  	  <arg line="-v -bb hodor.spec --buildroot rpm/BUILDROOT"/>
   	</exec>
   </target>
 	
