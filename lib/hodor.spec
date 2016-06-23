@@ -22,6 +22,7 @@ hodor app
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d -m 755 $RPM_BUILD_ROOT/opt/tomcat/webapps
+pwd
 cp ../SOURCES/hodor.war $RPM_BUILD_ROOT/opt/tomcat/webapps/.
 
 # Contains a list of the files that are part of the package
